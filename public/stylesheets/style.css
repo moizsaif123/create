@@ -1,0 +1,39 @@
+/* animation css */
+.batman-contact{
+	width: 100%; height: 100px; position: relative;
+
+
+}
+
+.batman-contact img{
+	width:  140px; height: 120px; position: absolute; left: 0px; top: -15px;
+	animation-name: batmanbhag;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes batmanbhag{
+
+	from{left:0;}
+	to{left:85%;}
+}
+
+/* transition in css3 */
+
+.love-class{
+
+
+	width: 50px;
+	height: 50px;
+	transition-property: width,height;
+	transition-duration: 2s;
+
+}
+
+.love-class:hover{
+	width: 100px;
+	height: 100px;
+	
+}
